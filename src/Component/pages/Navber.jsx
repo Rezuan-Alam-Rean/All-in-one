@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 
 
 const Navber = () => {
@@ -19,20 +20,46 @@ const Navber = () => {
         </div>
 
         <div className="navbar-center block text-center">
-  <div className="flex flex-col items-center">
-    <img className="h-8 w-8 lg:hidden" src="https://i.ibb.co/N3KmsJs/download.png" alt="" />
-    <p className="text-lg text-amber-500 font-serif">JANNATUL FERDAUS PUTUL</p>
-    <p className="text-sm text-slate-500 font-serif">Architects & Engineers</p>
-  </div>
-</div>
+          <div className="flex flex-col items-center">
+            <img className="h-8 w-8 lg:hidden" src="https://i.ibb.co/N3KmsJs/download.png" alt="" />
+            <p className="text-lg text-amber-500 font-serif">Jannatul Ferdaus Putul</p>
+            <p className="text-sm text-slate-500 font-serif">Architects & Engineers</p>
+          </div>
+        </div>
 
 
 
         <div className="navbar-end ">
 
-          <ul className="menu menu-horizontal px-1">
-            <li><a>Link</a></li>
-            <li><a>Link</a></li>
+          <ul className="menu menu-horizontal px-1 gap-3 ">
+
+            <NavLink
+              to="/"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-red-600" : ""
+              }
+            >
+              Home
+            </NavLink>
+
+            <NavLink
+              to="/Login"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-red-600" : ""
+              }
+            >
+              Login
+            </NavLink>
+            <NavLink
+              to="/Logout"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-red-600" : ""
+              }
+            >
+              Logout
+            </NavLink>
+
+
 
 
           </ul>
@@ -51,25 +78,3 @@ const Navber = () => {
 export default Navber;
 
 
-<div className="navbar bg-base-100 ">
-  <div className="navbar-start flex-1">
-    <img className="h-20 w-20  " src="https://i.ibb.co/N3KmsJs/download.png" alt="" />
-
-  </div>
-
-
-  <div className="navbar-center block">
-
-    <p>Jannatul Ferdaus Putul</p>
-    <p>Architects & Engineers</p>
-  </div>
-
-  <div className=" navbar-end flex-none">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Link</a></li>
-      <li><a>Link</a></li>
-      <li><a>Link</a></li>
-
-    </ul>
-  </div>
-</div>
