@@ -1,0 +1,44 @@
+[
+    {
+      "art_name": "Structural Elegance",
+      "art_img": "https://i.ibb.co/9gpdVMd/Whats-App-Image-2023-11-02-at-02-32-59-0f5db563.jpg",
+      "details": "A beautiful painting capturing the elegance of architectural structures.",
+      "price": "$1,500",
+      "theme": "Architecture"
+    },
+    {
+      "art_name": "Urban Geometry",
+      "art_img": "https://i.ibb.co/R7TJjXg/Whats-App-Image-2023-10-31-at-15-38-18-014a55fe.jpg",
+      "details": "A contemporary artwork exploring the geometric aspects of cityscapes.",
+      "price": "$1,200",
+      "theme": "Architecture"
+    },
+    {
+      "art_name": "Architect's Vision",
+      "art_img": "https://i.ibb.co/Pgn2CD9/Whats-App-Image-2023-10-31-at-15-38-15-6b9205cc.jpg",
+      "details": "A painting that reflects the visionary imagination of an architect.",
+      "price": "$1,800",
+      "theme": "Architecture"
+    },
+    {
+      "art_name": "Cityscape Dream",
+      "art_img": "https://i.ibb.co/dKtfBMz/Whats-App-Image-2023-10-31-at-15-38-10-cf243a6b.jpg",
+      "details": "An artistic representation of a dreamy and vibrant cityscape.",
+      "price": "$1,350",
+      "theme": "Architecture"
+    },
+    {
+      "art_name": "Modern Urban Living",
+      "art_img": "modern_urban_living.jpg",
+      "details": "A painting portraying the essence of modern urban living and architecture.",
+      "price": "$1,600",
+      "theme": "Architecture"
+    },
+    {
+      "art_name": "Architectural Harmony",
+      "art_img": "architectural_harmony.jpg",
+      "details": "An artwork that emphasizes the harmonious balance in architectural design.",
+      "price": "$1,250",
+      "theme": "Architecture"
+    }
+]
