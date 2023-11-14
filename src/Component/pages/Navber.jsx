@@ -28,13 +28,13 @@ const Navber = () => {
 
   return (
     <div>
-      <div className="navbar shadow-md bg-white ">
+      <div className=" fixed mb-20 max-w-7xl mx-auto  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 navbar  ">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-outline lg:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </label>
-            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-emerald-50 rounded-box w-52">
               
               <li>
 
@@ -43,7 +43,7 @@ const Navber = () => {
                   <NavLink
                     to="/"
                     className={({ isActive, isPending }) =>
-                      isPending ? "pending" : isActive ? "text-red-600" : ""
+                      isPending ? "pending" : isActive ? "text-emerald-950" : ""
                     }
                   >
                     Home
@@ -55,14 +55,14 @@ const Navber = () => {
               <li><a>Item 3</a></li>
             </ul>
           </div>
-          <img className="h-12 w-12 hidden lg:flex " src="https://i.ibb.co/N3KmsJs/download.png" alt="" />
+          <img className="h-12 w-12 hidden lg:flex " src="https://i.ibb.co/rbcbjCS/Untitled-design-12.png" alt="" />
         </div>
 
         <div className="navbar-center block text-center">
           <div className="flex flex-col items-center">
-            <img className="h-8 w-8 lg:hidden" src="https://i.ibb.co/N3KmsJs/download.png" alt="" />
-            <p className="text-lg text-amber-500 font-serif">Jannatul Ferdaus Putul</p>
-            <p className="text-sm text-slate-500 font-serif">Architects & Engineers</p>
+            <img className="h-8 w-8 lg:hidden" src="https://i.ibb.co/rbcbjCS/Untitled-design-12.png" alt="" />
+            <p className="text-lg text-emerald-950 font-serif">Jannatul Ferdaus <br /> Putul</p>
+            <p className="text-sm text-gray-800 font-serif">Architects & Engineers</p>
           </div>
         </div>
 
@@ -77,7 +77,7 @@ const Navber = () => {
                 <NavLink
                   to="/"
                   className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-red-600" : ""
+                    isPending ? "pending" : isActive ? "text-emerald-950" : ""
                   }
                 >
                   Home
@@ -101,7 +101,7 @@ const Navber = () => {
                 <NavLink
                   onClick={handleLogOut}
                   className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-red-600" : ""
+                    isPending ? "pending" : isActive ? "text-emerald-950" : ""
                   }
                 >
                   Logout
@@ -113,7 +113,7 @@ const Navber = () => {
                 <NavLink
                   to="/Login"
                   className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-red-600" : ""
+                    isPending ? "pending" : isActive ? "text-emerald-950" : ""
                   }
                 >
                   Login
@@ -123,7 +123,7 @@ const Navber = () => {
             }
 
             <label className=" mr-5">
-              {user && <div className="">
+              {user && <div className="tooltip tooltip-bottom" data-tip={user?.displayName}>
                 <img style={{ width: "50px" }} className="w-50 rounded-full circle ml-6" src={user?.photoURL} />
               </div>}
             </label>
