@@ -3,7 +3,7 @@
 const Banner = () => {
     return (
         <div> 
-            <div className="bg-gradient-to-r from-emerald-950 to-emerald-50 py-16 px-4  mb-10 ">
+            <div className="  bg-gradient-to-r from-emerald-950 to-emerald-50 py-16 px-4  mb-10 ">
                 <div>
                     <div className="   flex flex-col lg:flex-row items-center justify-between " >
                         <div

@@ -28,7 +28,7 @@ const Navber = () => {
 
   return (
     <div>
-      <div className=" fixed mb-20 max-w-7xl mx-auto  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100 navbar  ">
+      <div className="  navbar  ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-outline lg:hidden">
@@ -61,7 +61,7 @@ const Navber = () => {
         <div className="navbar-center block text-center">
           <div className="flex flex-col items-center">
             <img className="h-8 w-8 lg:hidden" src="https://i.ibb.co/rbcbjCS/Untitled-design-12.png" alt="" />
-            <p className="text-lg text-emerald-950 font-serif">Jannatul Ferdaus <br /> Putul</p>
+            <p className="text-lg text-emerald-950 font-serif">Jannatul Ferdaus  Putul</p>
             <p className="text-sm text-gray-800 font-serif">Architects & Engineers</p>
           </div>
         </div>
@@ -101,7 +101,7 @@ const Navber = () => {
                 <NavLink
                   onClick={handleLogOut}
                   className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-emerald-950" : ""
+                    isPending ? "pending" : isActive ? "" : ""
                   }
                 >
                   Logout
@@ -113,7 +113,7 @@ const Navber = () => {
                 <NavLink
                   to="/Login"
                   className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "text-emerald-950" : ""
+                    isPending ? "pending" : isActive ? "" : ""
                   }
                 >
                   Login

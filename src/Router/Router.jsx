@@ -8,6 +8,7 @@ import Home from "../Component/pages/Home/Home";
 
 
 
+
 const router = createBrowserRouter([
     {
       path: "/",
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
 
                     path: "/",
                     element:<Home></Home>
+                     
 
             },
             {
