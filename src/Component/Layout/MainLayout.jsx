@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Navber from "../pages/Navber";
+import Navber from "../pages/Shared/Navber";
+
 
 
 const MainLayout = () => {
