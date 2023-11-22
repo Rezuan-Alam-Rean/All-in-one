@@ -10,10 +10,10 @@ const Banner = () => {
 
                             className="  lg:w-1/2 overflow-x-hidden">
                             <h1 className="text-4xl  font-extrabold text-white  md:text-6xl">
-                                Welcome to Brands Shop
+                                Hi <br /> I am Jannatul Ferdaus Putul
                             </h1>
                             <p className="mt-3   text-xl text-white ">
-                                Discover the Best Phone from the best company in the world with our premium phone collection .
+                            “Architecture should speak of its time and place, but yearn for timelessness.”
                             </p>
                         </div>
                         <img
