@@ -1,52 +1,44 @@
 [
-  {
-      "_id": "1",
+    {
       "project_name": "Modern Residence",
       "project_img": "https://i.ibb.co/Syv6t6K/Whats-App-Image-2023-11-02-at-02-32-58-23b97bb3.jpg",
       "details": "A stunning contemporary home with clean lines and open spaces.",
       "price": "$1,200,000",
       "project_type": "Residential"
-  },
-  {
-      "_id": "2",
+    },
+    {
       "project_name": "City Center Skyscraper",
       "project_img": "https://i.ibb.co/1mybBbm/Whats-App-Image-2023-11-02-at-02-32-59-500cffb5.jpg",
       "details": "A state-of-the-art skyscraper in the heart of the city.",
       "price": "$50,000,000",
       "project_type": "Commercial"
-  },
-  {
-      "_id": "3",
+    },
+    {
       "project_name": "Museum of Art and Design",
       "project_img": "https://i.ibb.co/ysMjgsp/Whats-App-Image-2023-11-02-at-02-32-59-b7178d62.jpg",
       "details": "An iconic museum showcasing art and design masterpieces.",
       "price": "$80,000,000",
       "project_type": "Cultural"
-  },
-  {
-      "_id": "4",
+    },
+    {
       "project_name": "Urban Park Revitalization",
       "project_img": "https://i.ibb.co/hgg3RRk/Whats-App-Image-2023-11-02-at-02-32-58-fd2a4af8.jpg",
       "details": "A project to transform an urban park into a green oasis.",
       "price": "$5,000,000",
       "project_type": "Public Space"
-  },
-  {
-      "_id": "5",
+    },
+    {
       "project_name": "Resort Paradise",
-      "project_img": "https://i.ibb.co/Syv6t6K/Whats-App-Image-2023-11-02-at-02-32-58-23b97bb3.jpg",
+      "project_img": "resort_paradise.jpg",
       "details": "A luxurious resort nestled in a tropical paradise.",
       "price": "$30,000,000",
       "project_type": "Hospitality"
-  },
-  {
-      "_id": "6",
+    },
+    {
       "project_name": "Sustainable Office Complex",
-      "project_img": "https://i.ibb.co/Syv6t6K/Whats-App-Image-2023-11-02-at-02-32-58-23b97bb3.jpg",
+      "project_img": "sustainable_office_complex.jpg",
       "details": "An eco-friendly office complex with innovative design features.",
       "price": "$15,000,000",
       "project_type": "Commercial"
-  }
+    }
 ]
-
-

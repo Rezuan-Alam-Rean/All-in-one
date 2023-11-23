@@ -15,6 +15,7 @@ const Slider = () => {
                 <div>
                     <img src={img1} />
                     
+                    
                 </div>
                 <div>
                     <img src={img2} />
