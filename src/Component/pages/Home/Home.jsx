@@ -1,10 +1,11 @@
 
 import { Helmet } from "react-helmet-async";
 import Banner from "./Banner/Banner";
-import Slider from "./Banner/Slider";
+
 import About from "./About/About";
 import Project from "./Project/Project";
 import Education from "./Education/Education";
+import Slider from "./Banner/Slider";
 
 
 
@@ -15,8 +16,7 @@ const Home = () => {
                 <title>Putul || Home</title>
 
             </Helmet>
-            <Slider></Slider>
-
+           *<Slider/>
             <About></About>
             <Education/>
             <Project></Project>

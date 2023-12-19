@@ -1,44 +1,54 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-import img1 from "../../../../assets/home/01.jpg"
-import img2 from "../../../../assets/home/02.jpg"
-import img3 from "../../../../assets/home/03.png"
-import img4 from "../../../../assets/home/04.jpg"
-import img5 from "../../../../assets/home/05.png"
-import img6 from "../../../../assets/home/06.png"
 
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
+
+import img1 from '../../../../assets/house/avi-werde-hHz4yrvxwlA-unsplash.jpg';
+import img2 from '../../../../assets/house/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg';
+import img3 from '../../../../assets/house/john-fornander-tVzyDSV84w8-unsplash.jpg';
+import img4 from '../../../../assets/house/naomi-ellsworth-EMPLSuvDuhQ-unsplash.jpg';
+import img5 from '../../../../assets/house/paul-szewczyk-nI4aC1kaTRc-unsplash.jpg';
+import img6 from '../../../../assets/house/spacejoy-XM-miHibz64-unsplash.jpg';
 
 
 const Slider = () => {
-    return (
-        <Carousel>
-                <div>
-                    <img src={img1} />
-                    
-                    
-                </div>
-                <div>
-                    <img src={img2} />
-                   
-                </div>
-                <div>
-                    <img src={img3} />
-                    
-                </div>
-                <div>
-                    <img src={img4} />
-                    
-                </div>
-                <div>
-                    <img src={img5} />
-                   
-                </div>
-                <div>
-                    <img src={img6} />
-                    
-                </div>
-            </Carousel>
-    );
+
+ 
+
+
+  return (
+    
+
+      <Carousel
+        autoPlay
+        interval={3000}
+        infiniteLoop
+        showThumbs={true}
+        stopOnHover={false} 
+      >
+        <div>
+          <img className="max-h-[450px]" src={img1} alt="Slide 1" />
+        </div>
+        <div>
+          <img className="max-h-[450px]" src={img2} alt="Slide 2" />
+        </div>
+        <div>
+          <img className="max-h-[450px]" src={img3} alt="Slide 3" />
+        </div>
+        <div>
+          <img className="max-h-[450px]" src={img4} alt="Slide 4" />
+        </div>
+        <div>
+          <img className="max-h-[450px]" src={img5} alt="Slide 5" />
+        </div>
+        <div>
+          <img className="max-h-[450px]" src={img6} alt="Slide 6" />
+        </div>
+      </Carousel>
+
+   
+   
+   
+  );
 };
 
 export default Slider;
