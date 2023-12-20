@@ -20,12 +20,12 @@ const Education = () => {
     
       return (
         <div className="flex flex-col items-center justify-center py-8 px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl text-black font-semibold mb-6">Education Qualifications</h2>
+          <h2 className="text-2xl font-bold text-orange-600">Education Qualifications</h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 w-full">
             {qualifications.map((qualification, index) => (
               <div
                 key={index}
-                className="bg-slate-800 shadow-md rounded-lg p-6 flex flex-col justify-between sm:flex-row"
+                className="bg-slate-100 shadow-md rounded-lg p-6 flex flex-col justify-between sm:flex-row"
               >
                 <div className="mb-4 sm:mb-0 sm:mr-4 flex-shrink-0">
                   <img
@@ -35,11 +35,11 @@ const Education = () => {
                   />
                 </div>
                 <div>
-                  <h3 className="text-lg text-white font-semibold mb-2">{qualification.degree}</h3>
-                  <p className="text-white mb-2">
+                  <h3 className="text-lg text-black font-semibold mb-2">{qualification.degree}</h3>
+                  <p className="text-black mb-2">
                     {qualification.university || qualification.school}
                   </p>
-                  <p className="text-white">{qualification.year}</p>
+                  <p className="text-black">{qualification.year}</p>
                 </div>
               </div>
             ))}

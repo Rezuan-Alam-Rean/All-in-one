@@ -1,22 +1,22 @@
 import { useEffect, useState } from "react";
-import ProjectCart from "./ProjectCart";
 import Grid from '@mui/material/Grid';
 import Pagination from '@mui/material/Pagination';
+import Artscard from "./Artscard";
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-const Project = () => {
-    const [projects, setProject] = useState([]);
+const Arts = () => {
+    const [arts, setArts] = useState([]);
     const [page, setPage] = useState(1);
     const itemsPerPage = 4;
 
     useEffect(() => {
-        fetch("http://localhost:5000/projects")
+        fetch("http://localhost:5000/arts")
             .then(res => res.json())
-            .then(data => setProject(data));
+            .then(data => setArts(data));
     }, [])
 
-    console.log(projects);
+    console.log(arts);
 
     const handleChange = (event, value) => {
         setPage(value);
@@ -25,21 +25,21 @@ const Project = () => {
     return (
         <div className="mt-4 mb-4">
             <div className="text-center mt-5 mb-5">
-                <h3 className="text-2xl font-bold text-orange-600">Projects</h3>
+                <h3 className="text-2xl font-bold text-orange-600">Arts</h3>
             </div>
 
-            <Grid container spacing={2} >
-                {projects.slice((page - 1) * itemsPerPage, page * itemsPerPage).map(project => (
-                    <ProjectCart key={project._id} project={project} />
+            <Grid container spacing={2}>
+                {arts.slice((page - 1) * itemsPerPage, page * itemsPerPage).map(art => (
+                    <Artscard key={art._id} art={art} />
                 ))}
             </Grid>
 
             <Box display="flex" justifyContent="flex-end" mt={2}>
                 <Typography variant="body1" >View More</Typography>
-                <Pagination count={Math.ceil(projects.length / itemsPerPage)} page={page} onChange={handleChange} />
+                <Pagination count={Math.ceil(arts.length / itemsPerPage)} page={page} onChange={handleChange} />
             </Box>
         </div>
     );
 };
 
-export default Project;
+export default Arts;

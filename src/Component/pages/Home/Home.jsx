@@ -1,11 +1,12 @@
 
 import { Helmet } from "react-helmet-async";
-import Banner from "./Banner/Banner";
+// import Banner from "./Banner/Banner";
 
 import About from "./About/About";
 import Project from "./Project/Project";
 import Education from "./Education/Education";
 import Slider from "./Banner/Slider";
+import Arts from "./Arts/Arts";
 
 
 
@@ -20,7 +21,8 @@ const Home = () => {
             <About></About>
             <Education/>
             <Project></Project>
-            <Banner></Banner>
+            <Arts/>
+            {/* <Banner></Banner> */}
 
         </div>
     );
