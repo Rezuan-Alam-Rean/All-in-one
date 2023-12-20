@@ -1,22 +1,48 @@
+import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-        <div className="hero min-h-screen bg-base-200">
-            <div className="hero-content flex-col lg:flex-row">
-                <div className='lg:w-1/2 relative'>
-                    <img src="https://i.ibb.co/NrKTh1z/Untitled-Instagram-Post.png" className="w-3/4 rounded-lg shadow-2xl" />
-                    <img src="https://i.ibb.co/wRF4zS4/379560534-849358980169855-7780829300924460302-n.jpg" className="w-2/5 absolute right-5 top-2/3 rounded-lg border-8 border-white shadow-2xl" />
+
+        <div>
+
+            <p className="text-3xl font-bold text-center text-orange-500 mb-5 mt-10">
+                About Me
+            </p>
+            <h1 className="font-5xl font-poppins font-extrabold border-b-8 border-dimBlue text-white mb-10"></h1>
+
+            <div
+                id="about"
+                className="xl:mt-12 flex md:flex-row flex-col gap-10 overflow-hidden"
+            >
+               
+                <div className="text-center md:mt-10  mt-1 max-w-xs m-auto">
+                    <img className="max-h-80 w-full" src="https://i.ibb.co/mJ36rSh/Untitled-design-16.png" alt="profile" />
+
                 </div>
-                <div className='lg:w-1/2 space-y-5 p-4'>
-                    <h3 className=" mt-10 text-3xl font-bold" >Hi  , I am <span className=' text-orange-500 '> Jannatul Ferdaus Putul</span> </h3>
-                  
-                            <p className="mt-3   text-xl text-white ">
-                            “Architecture should speak of its time and place, but yearn for timelessness.”
-                            </p>
-                    <button className="btn btn-warning">Get More Info</button>
+                {/* Form */}
+                <div className="flex-[0.75] bg-black-100 p-8 rounded-2xl md:w-1/2 my-5">
+                    <div className="p-3 leading-6 ">
+                    <h3 className=" mb-5 text-3xl font-bold" > <span className=' text-orange-500 '> So</span> , who am I ?</h3>
+
+                        <p className="text-gray-700 font-poppins text-justify ">
+                        Hello! I’m Jannatul Ferdaus Putul,   an Architecture student at the prestigious Ahsanullah University of Science and Technology.
+                        My portfolio includes a variety of architectural projects and Arts .  I also have a collection of art pieces .
+
+                        I have honed my skills in Adobe Illustrator and Photoshop.
+
+                        I am a dedicated architecture student with a passion for design, a knack for art, and a strong command of essential digital tools. <br /> I am continuously learning and creatively exploring in my journey in the field of architecture. 😊 
+                        </p>
+                        < Link to="/" >
+                            <button className="btn btn-sm bg-orange-400 mt-4 md:mt-6">
+                                Contact Me
+                            </button>
+                        </ Link >
+                    </div>
                 </div>
             </div>
+
         </div>
+        
     );
 };
 

@@ -7,7 +7,7 @@ const Education = () => {
           degree: 'Bachelor of Architecture (ARC)',
           university: 'AHSANULLAH UNIVERSITY OF SCIENCE AND TECHNOLOGY',
           year: '2023 - Running',
-          image: 'https://raw.githubusercontent.com/Rezuan-Alam-Rean/Rezuan-Alam-Rean/main/images/programmer.gif', // Placeholder image URL
+          image: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3o1YjVibHQzcnU3bXpucG9idWk5YW93cGhsbHoxYnViOTYzejBqMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QLj1DlO0Qe2Ws/giphy.gif', // Placeholder image URL
         },
         {
           degree: 'Higher Secondary Certificate (HSC)',

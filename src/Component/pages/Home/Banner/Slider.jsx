@@ -2,16 +2,11 @@
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 
-import img1 from '../../../../assets/house/avi-werde-hHz4yrvxwlA-unsplash.jpg';
-import img2 from '../../../../assets/house/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg';
-import img3 from '../../../../assets/house/john-fornander-tVzyDSV84w8-unsplash.jpg';
-import img4 from '../../../../assets/house/naomi-ellsworth-EMPLSuvDuhQ-unsplash.jpg';
-import img5 from '../../../../assets/house/paul-szewczyk-nI4aC1kaTRc-unsplash.jpg';
-import img6 from '../../../../assets/house/spacejoy-XM-miHibz64-unsplash.jpg';
 
 
 const Slider = () => {
 
+  
   
  
 
@@ -23,26 +18,26 @@ const Slider = () => {
         autoPlay
         interval={3000}
         infiniteLoop
-        showThumbs={true}
+        showThumbs={false}
         stopOnHover={false} 
       >
         <div>
-          <img className="max-h-[450px]" src={img1} alt="Slide 1" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/9gpdVMd/Whats-App-Image-2023-11-02-at-02-32-59-0f5db563.jpg" alt="Slide 1" />
         </div>
         <div>
-          <img className="max-h-[450px]" src={img2} alt="Slide 2" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/Syv6t6K/Whats-App-Image-2023-11-02-at-02-32-58-23b97bb3.jpg" alt="Slide 2" />
         </div>
         <div>
-          <img className="max-h-[450px]" src={img3} alt="Slide 3" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/R7TJjXg/Whats-App-Image-2023-10-31-at-15-38-18-014a55fe.jpg" alt="Slide 3" />
         </div>
         <div>
-          <img className="max-h-[450px]" src={img4} alt="Slide 4" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/ysMjgsp/Whats-App-Image-2023-11-02-at-02-32-59-b7178d62.jpg" alt="Slide 4" />
         </div>
         <div>
-          <img className="max-h-[450px]" src={img5} alt="Slide 5" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/hgg3RRk/Whats-App-Image-2023-11-02-at-02-32-58-fd2a4af8.jpg" alt="Slide 5" />
         </div>
         <div>
-          <img className="max-h-[450px]" src={img6} alt="Slide 6" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/Pgn2CD9/Whats-App-Image-2023-10-31-at-15-38-15-6b9205cc.jpg" alt="Slide 6" />
         </div>
       </Carousel>
 
