@@ -3,9 +3,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions, Grid } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const Artscard = (art) => {
-    const {art_name,art_img,details,theme} = art.art;
+    const {_id,art_name,art_img,details,theme} = art.art;
     console.log(art);
 
     return (
@@ -37,9 +38,12 @@ const Artscard = (art) => {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
+                <Link to={`/aDetails/${_id}`}>
                     <Button size="small" color="primary">
-                        view details
+                        view Details
                     </Button>
+                   
+                   </Link>
                 </CardActions>
             </Card>
         </Grid>

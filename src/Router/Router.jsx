@@ -7,6 +7,8 @@ import Login from "../Component/pages/Login/Login";
 import Logout from "../Component/pages/Login/Logout";
 import Register from "../Component/pages/Login/Register";
 import Projects from "../Component/pages/Projects/Projects";
+import ProjectDetails from "../Component/pages/Details/ProjectDetails";
+import ArtsDetails from "../Component/pages/Details/ArtsDetails";
 
 
 
@@ -44,7 +46,17 @@ const router = createBrowserRouter([
             path:"/Projects",
             element: <Projects></Projects>
             },
-
+            
+            {
+              path: "/pDetails/:id",
+              element: <ProjectDetails/>
+              
+            },
+            {
+              path: "/aDetails/:id",
+              element: <ArtsDetails/>
+              
+            },
 
         ]
 

@@ -3,9 +3,10 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions, Grid } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const ProjectCart = (project) => {
-    const {project_name,project_img,details,project_type} = project.project;
+    const {_id,project_name,project_img,details,project_type} = project.project;
     console.log(project);
 
     return (
@@ -37,11 +38,17 @@ const ProjectCart = (project) => {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
+
+                   <Link to={`/pDetails/${_id}`}>
                     <Button size="small" color="primary">
                         view Details
                     </Button>
+                   
+                   </Link>
                 </CardActions>
             </Card>
+
+            
         </Grid>
     );
 };
