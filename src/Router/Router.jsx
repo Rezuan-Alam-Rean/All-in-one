@@ -6,9 +6,11 @@ import Home from "../Component/pages/Home/Home";
 import Login from "../Component/pages/Login/Login";
 import Logout from "../Component/pages/Login/Logout";
 import Register from "../Component/pages/Login/Register";
-import Projects from "../Component/pages/Projects/Projects";
+
 import ProjectDetails from "../Component/pages/Details/ProjectDetails";
 import ArtsDetails from "../Component/pages/Details/ArtsDetails";
+import Arts from "../Component/pages/Home/Arts/Arts";
+import Project from "../Component/pages/Home/Project/Project";
 
 
 
@@ -44,7 +46,12 @@ const router = createBrowserRouter([
             {
 
             path:"/Projects",
-            element: <Projects></Projects>
+            element: <Project/>
+            },
+
+            {
+            path:"/Arts",
+            element: <Arts/>
             },
             
             {

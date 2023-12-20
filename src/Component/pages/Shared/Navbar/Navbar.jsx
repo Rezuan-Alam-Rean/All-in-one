@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 // import logoImg from '../../../assets/images/b-logo.jpg'
 import MenuDropdown from './MenuDropdown'
-// import Logo from '../../../../assets/img/logop.png'
+import Logo from '../../../../assets/img/logop.png'
 
 const Navbar = () => {
 
@@ -14,6 +14,8 @@ const Navbar = () => {
             {/* Logo */}
             <Link to='/'>
              {/* <Logo/> */}
+             <img className='w-12' src={Logo} alt="logo" />
+        
             </Link>
 
             <div className='hidden md:flex' >
@@ -25,10 +27,16 @@ const Navbar = () => {
             </Link>
 
             <Link
-              to='/Apartment'
+              to='/Projects'
               className='px-4 py-3 text-red-500  hover:bg-slate-700 transition font-bold'
             >
-              Apartments
+              Projects
+            </Link>
+            <Link
+              to='/Arts'
+              className='px-4 py-3 text-red-500  hover:bg-slate-700 transition font-bold'
+            >
+              Arts
             </Link>
             </div>
 

@@ -20,7 +20,7 @@ const Education = () => {
     
       return (
         <div className="flex flex-col items-center justify-center py-8 px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-orange-600">Education Qualifications</h2>
+          <h2 className="mt-5 mb-10 text-2xl font-bold text-orange-600">Education Qualifications</h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 w-full">
             {qualifications.map((qualification, index) => (
               <div

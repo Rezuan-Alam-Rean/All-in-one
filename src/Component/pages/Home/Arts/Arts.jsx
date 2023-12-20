@@ -11,7 +11,7 @@ const Arts = () => {
     const itemsPerPage = 4;
 
     useEffect(() => {
-        fetch("http://localhost:5000/arts")
+        fetch("https://all-in-one-server-site.vercel.app/arts")
             .then(res => res.json())
             .then(data => setArts(data));
     }, [])

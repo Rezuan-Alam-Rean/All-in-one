@@ -9,7 +9,7 @@ const ArtsDetails = () => {
     const [data, setData] = useState();
 
     useEffect(() => {
-        fetch(`http://localhost:5000/arts/${id}`)
+        fetch(`https://all-in-one-server-site.vercel.app/arts/${id}`)
             .then((res) => res.json())
             .then((data) => {
                 setData(data);

@@ -18,9 +18,10 @@ const MenuDropdown = () => {
       <div className='flex flex-row items-center gap-3'>
         {/* Become A Host btn */}
         <div className=' md:block'>
-         <p className='text-lg font-extrabold font-serif'>
-         Putul's Paradise
-       </p>
+         <div className='text-lg font-extrabold  text-center font-serif'>
+         <p className="text-lg  font-extrabold text-black font-serif">Jannatul Ferdaus  Putul</p>
+             <p className="text-sm text-orange-600 font-serif">Architects & Engineers</p>
+       </div>
        </div>
         {/* Dropdown btn */}
         <div
@@ -56,12 +57,17 @@ const MenuDropdown = () => {
           </Link>
 
           <Link
-            to='/Apartment'
-            className='block md:hidden px-4 py-3 hover:bg-neutral-100 transition font-semibold'
-          >
-            Apartments
-          </Link>
-
+              to='/Projects'
+              className='px-4 py-3 text-red-500  hover:bg-slate-700 transition font-bold'
+            >
+              Projects
+            </Link>
+            <Link
+              to='/Arts'
+              className='px-4 py-3 text-red-500  hover:bg-slate-700 transition font-bold'
+            >
+              Arts
+            </Link>
             {user ? (
               <>
                

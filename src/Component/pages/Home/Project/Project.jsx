@@ -11,7 +11,7 @@ const Project = () => {
     const itemsPerPage = 4;
 
     useEffect(() => {
-        fetch("http://localhost:5000/projects")
+        fetch("https://all-in-one-server-site.vercel.app/projects")
             .then(res => res.json())
             .then(data => setProject(data));
     }, [])
