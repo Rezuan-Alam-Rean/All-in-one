@@ -12,6 +12,7 @@ import img6 from '../../../../assets/house/spacejoy-XM-miHibz64-unsplash.jpg';
 
 const Slider = () => {
 
+  
  
 
 
