@@ -12,7 +12,8 @@ const Slider = () => {
 
 
   return (
-    
+
+    <div className='mt-28'>
 
       <Carousel
         autoPlay
@@ -40,6 +41,10 @@ const Slider = () => {
           <img className="max-h-[400px]" src="https://i.ibb.co/Pgn2CD9/Whats-App-Image-2023-10-31-at-15-38-15-6b9205cc.jpg" alt="Slide 6" />
         </div>
       </Carousel>
+
+    </div>
+    
+
 
    
    

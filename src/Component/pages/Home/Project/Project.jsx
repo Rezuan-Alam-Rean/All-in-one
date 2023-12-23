@@ -23,8 +23,8 @@ const Project = () => {
     };
 
     return (
-        <div className="mt-4 mb-4">
-            <div className="text-center mt-5 mb-5">
+        <div className="mt-4 ">
+            <div className="text-center mt-5 mb-10">
                 <h3 className="text-2xl font-bold text-orange-600">Projects</h3>
             </div>
 

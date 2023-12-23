@@ -15,7 +15,7 @@ const About = () => {
                 className="xl:mt-12 flex md:flex-row flex-col gap-10 overflow-hidden"
             >
                
-                <div className="text-center md:mt-10  mt-1 max-w-xs m-auto">
+                <div className="text-center md:mt-10   mt-1 max-w-xs m-auto">
                     <img className="max-h-80 w-full" src="https://i.ibb.co/mJ36rSh/Untitled-design-16.png" alt="profile" />
 
                 </div>

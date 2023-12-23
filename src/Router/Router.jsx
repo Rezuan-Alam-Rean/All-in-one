@@ -16,62 +16,71 @@ import Project from "../Component/pages/Home/Project/Project";
 
 
 const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <MainLayout></MainLayout>,
+  {
+    path: "/",
+    element: <MainLayout></MainLayout>,
 
-        children: [
-            {
+    children: [
+      {
 
-                    path: "/",
-                    element:<Home></Home>
-                     
-
-            },
-            {
-              path: "/Login",
-              element: <Login></Login>
-            },
-            {
-              path: "/Logout",
-              element:<Logout></Logout>
-
-            },
-            {
-
-            path:"/Register",
-            element: <Register></Register>
-            },
-            
-            {
-
-            path:"/Projects",
-            element: <Project/>
-            },
-
-            {
-            path:"/Arts",
-            element: <Arts/>
-            },
-            
-            {
-              path: "/pDetails/:id",
-              element: <ProjectDetails/>
-              
-            },
-            {
-              path: "/aDetails/:id",
-              element: <ArtsDetails/>
-              
-            },
-
-        ]
+        path: "/",
+        element: <Home></Home>
 
 
+      },
+      {
+        path: "/Login",
+        element: <Login></Login>
+      },
+      {
+        path: "/Logout",
+        element: <Logout></Logout>
 
-    },
-  ]);
+      },
+      {
+
+        path: "/Register",
+        element: <Register></Register>
+      },
+
+      {
+
+        path: "/Projects",
+        element:
+        <div className="mt-28">
+          <Project />
+
+        </div>
+        
+      },
+
+      {
+        path: "/Arts",
+        element: <div className="mt-28">
+
+          <Arts />
+        </div>
+
+      },
+
+      {
+        path: "/pDetails/:id",
+        element: <ProjectDetails />
+
+      },
+      {
+        path: "/aDetails/:id",
+        element: <ArtsDetails />
+
+      },
+
+    ]
 
 
 
-  export default router ;
+  },
+]);
+
+
+
+export default router;
