@@ -26,7 +26,7 @@ const ProjectDetails = () => {
                     <FaSpinner className="animate-spin text-white text-4xl" />
                 </div>
             ) : (
-                <div className="mt-28 card lg:card-side bg-base-100 shadow-xl flex">
+                <div className="mt-28 card lg:card-side  bg-base-100 shadow-xl flex">
                 <figure className=" lg:w-2/5">
                     <img src={data.project_img} alt="Album" className="w-full" />
                 </figure>

@@ -23,22 +23,22 @@ const Slider = () => {
         stopOnHover={false} 
       >
         <div>
-          <img className="max-h-[400px]" src="https://i.ibb.co/9gpdVMd/Whats-App-Image-2023-11-02-at-02-32-59-0f5db563.jpg" alt="Slide 1" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/Hhf3h7M/Screenshot-2023-12-24-154017.png" alt="Slide 4" />
         </div>
         <div>
-          <img className="max-h-[400px]" src="https://i.ibb.co/Syv6t6K/Whats-App-Image-2023-11-02-at-02-32-58-23b97bb3.jpg" alt="Slide 2" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/dmWmPDK/Screenshot-2023-12-24-154115.png" alt="Slide 1" />
         </div>
         <div>
-          <img className="max-h-[400px]" src="https://i.ibb.co/R7TJjXg/Whats-App-Image-2023-10-31-at-15-38-18-014a55fe.jpg" alt="Slide 3" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/MDjMsMZ/Screenshot-2023-12-24-154324.png" alt="Slide 2" />
         </div>
         <div>
-          <img className="max-h-[400px]" src="https://i.ibb.co/ysMjgsp/Whats-App-Image-2023-11-02-at-02-32-59-b7178d62.jpg" alt="Slide 4" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/7zytDg0/jeewantha-dilshan-qkf-HSJrf-P08-unsplash.jpg" alt="Slide 3" />
         </div>
         <div>
-          <img className="max-h-[400px]" src="https://i.ibb.co/hgg3RRk/Whats-App-Image-2023-11-02-at-02-32-58-fd2a4af8.jpg" alt="Slide 5" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/QD7XMBB/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-ret.jpg" alt="Slide 5" />
         </div>
         <div>
-          <img className="max-h-[400px]" src="https://i.ibb.co/Pgn2CD9/Whats-App-Image-2023-10-31-at-15-38-15-6b9205cc.jpg" alt="Slide 6" />
+          <img className="max-h-[400px]" src="https://i.ibb.co/Z2cbB6W/Screenshot-2023-12-24-153843.png" alt="Slide 6" />
         </div>
       </Carousel>
 

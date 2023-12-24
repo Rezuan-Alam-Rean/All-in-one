@@ -16,7 +16,7 @@ const About = () => {
             >
                
                 <div className="text-center md:mt-10   mt-1 max-w-xs m-auto">
-                    <img className="max-h-80 w-full" src="https://i.ibb.co/mJ36rSh/Untitled-design-16.png" alt="profile" />
+                    <img className="max-h-80 shadow-md rounded-full w-full" src="https://i.ibb.co/mJ36rSh/Untitled-design-16.png" alt="profile" />
 
                 </div>
                 {/* Form */}

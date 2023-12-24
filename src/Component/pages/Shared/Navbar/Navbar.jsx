@@ -14,8 +14,15 @@ const Navbar = () => {
             {/* Logo */}
             <Link to='/'>
              {/* <Logo/> */}
-             <img className='w-10 rounded-full' src="https://i.ibb.co/3sP95vN/Untitled-design-15.png" alt="logo" />
-        
+             
+                <img
+              className=' ml-2 rounded-full'
+              referrerPolicy='no-referrer'
+              src="https://i.ibb.co/z5fdm9q/379560534-849358980169855-7780829300924460302-n.jpg"
+              alt='profile'
+              height='30'
+              width='40'
+            />
             </Link>
 
             <div className='hidden md:flex' >
