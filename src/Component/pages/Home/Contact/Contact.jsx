@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import animate from "../../assets/Animation - 1702402794506.json";
+import animate from "../../../../assets/animation/Animation - 1702402794506.json";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from "react-hot-toast";
@@ -19,14 +19,14 @@ const Contact = () => {
         console.error('Email error:', error);
       });
   };
-  
+
 
   return (
-    <>
-      <p className="text-4xl font-bold text-center text-white mb-5 mt-10">
+    <div className="mb-10">
+      <p className="text-3xl font-bold text-center text-orange-600 mb-5 mt-10">
         Contact Me
       </p>
-      <h1 className="font-5xl font-poppins font-extrabold border-b-8  border-dimBlue text-white mb-10"></h1>
+      <h1 className="font-5xl font-poppins font-extrabold border-b-8  border-dimBlue text-black mb-10"></h1>
 
       <div id="contact" className="xl:mt-12 flex md:flex-row flex-col gap-10 overflow-hidden">
         {/* Lottie */}
@@ -34,11 +34,11 @@ const Contact = () => {
           <Lottie className="" animationData={animate} loop={true} height={50} width={50} />
         </div>
         {/* Form */}
-        <div className='flex-[0.75] bg-black-100 p-8 rounded-2xl md:w-1/2'>
+        <div className='flex-[0.75] bg-slate-100 p-8 rounded-2xl md:w-1/2'>
           <form ref={form} onSubmit={sendEmail} className='mt-12 flex flex-col gap-8 text-black'>
             <div className="flex flex-col md:flex-row md:justify-between gap-3">
               <label className='flex flex-col w-full'>
-                <span className='text-white font-medium mb-4'>Name</span>
+                <span className='text-black font-medium mb-4'>Name</span>
                 <input
                   type='text'
                   name='name'
@@ -48,7 +48,7 @@ const Contact = () => {
                 />
               </label>
               <label className='flex flex-col w-full'>
-                <span className='text-white font-medium mb-4'>Email</span>
+                <span className='text-black font-medium mb-4'>Email</span>
                 <input
                   type='email'
                   name='email'
@@ -59,7 +59,7 @@ const Contact = () => {
               </label>
             </div>
             <label className='flex flex-col'>
-              <span className='text-white font-medium mb-4'>Subject</span>
+              <span className='text-black font-medium mb-4'>Subject</span>
               <input
                 type='text'
                 name='subject'
@@ -69,7 +69,7 @@ const Contact = () => {
               />
             </label>
             <label className='flex flex-col'>
-              <span className='text-white font-medium mb-4'>Your Message</span>
+              <span className='text-black font-medium mb-4'>Your Message</span>
               <textarea
                 rows={7}
                 name='message'
@@ -78,11 +78,11 @@ const Contact = () => {
                 className='bg-tertiary py-4 px-6 text-black rounded-lg outline-none border-none font-medium'
               />
             </label>
-            <button className="hover:-hue-rotate-90 btn btn-sm  bg-purple-100">Send Message</button>
+            <button className="hover:-hue-rotate-90 btn btn-sm  bg-orange-400">Send Message</button>
           </form>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

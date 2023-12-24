@@ -45,6 +45,12 @@ const Navbar = () => {
             >
               Arts
             </Link>
+            <Link
+              to='/Contract'
+              className='px-4 py-3 text-red-500  hover:bg-slate-700 transition font-bold'
+            >
+              Contract
+            </Link>
             </div>
 
             {/* Dropdown Menu */}

@@ -7,6 +7,7 @@ import Project from "./Project/Project";
 import Education from "./Education/Education";
 import Slider from "./Banner/Slider";
 import Arts from "./Arts/Arts";
+import Contact from "./Contact/Contact";
 
 
 
@@ -23,6 +24,7 @@ const Home = () => {
             <Project></Project>
             <Arts/>
             {/* <Banner></Banner> */}
+            <Contact/>
 
         </div>
     );

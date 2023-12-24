@@ -11,6 +11,7 @@ import ProjectDetails from "../Component/pages/Details/ProjectDetails";
 import ArtsDetails from "../Component/pages/Details/ArtsDetails";
 import Arts from "../Component/pages/Home/Arts/Arts";
 import Project from "../Component/pages/Home/Project/Project";
+import Contact from "../Component/pages/Home/Contact/Contact";
 
 
 
@@ -59,6 +60,14 @@ const router = createBrowserRouter([
         element: <div className="mt-28">
 
           <Arts />
+        </div>
+
+      },
+      {
+        path: "/Contract",
+        element: <div className="mt-28">
+
+          <Contact/>
         </div>
 
       },

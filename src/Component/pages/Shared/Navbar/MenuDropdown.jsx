@@ -49,31 +49,43 @@ const MenuDropdown = () => {
 
             <h2 className='text-center mt-4 mb-1  font-bold'> {user && user?.displayName} </h2>
 
-          <Link
+
+            <div className='md:hidden flex flex-col' >
+
+            <Link
             to='/'
-            className='block md:hidden px-4 py-3 hover:bg-neutral-100 transition font-semibold'
+            className=' px-4 py-3 text-red-500  hover:bg-slate-50 transition font-bold'
           >
             Home
           </Link>
 
           <Link
               to='/Projects'
-              className='px-4 py-3 text-red-500  hover:bg-slate-700 transition font-bold'
+              className='px-4 py-3 text-red-500  hover:bg-slate-50 transition font-bold'
             >
               Projects
             </Link>
             <Link
               to='/Arts'
-              className='px-4 py-3 text-red-500  hover:bg-slate-700 transition font-bold'
+              className='px-4 py-3 text-red-500  hover:bg-slate-50 transition font-bold'
             >
               Arts
             </Link>
+          <Link
+              to='/Contract'
+              className='px-4 py-3 text-red-500  hover:bg-slate-50 transition font-bold'
+            >
+              Contract
+            </Link>
+            </div>
+
+          
             {user ? (
               <>
                
                 <div
                   onClick={logout}
-                  className='px-4 py-3 hover:bg-neutral-100 transition font-semibold cursor-pointer'
+                  className='px-4 py-3 text-red-500  hover:bg-slate-50 transition font-bold'
                 >
                   Logout
                 </div>
@@ -82,13 +94,13 @@ const MenuDropdown = () => {
               <>
                 <Link
                   to='/Login'
-                  className='px-4 py-3 hover:bg-neutral-100 transition font-semibold'
+                  className='px-4 py-3 text-red-500  hover:bg-slate-50 transition font-bold'
                 >
                   Login
                 </Link>
                 <Link
                   to='/Register'
-                  className='px-4 py-3 hover:bg-neutral-100 transition font-semibold'
+                  className='px-4 py-3 text-red-500  hover:bg-slate-50 transition font-bold '
                 >
                   Sign Up
                 </Link>
