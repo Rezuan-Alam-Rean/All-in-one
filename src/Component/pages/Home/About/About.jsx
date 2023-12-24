@@ -22,7 +22,7 @@ const About = () => {
                 {/* Form */}
                 <div className="flex-[0.75] bg-black-100 p-8 rounded-2xl md:w-1/2 my-5">
                     <div className="p-3 leading-6 ">
-                    <h3 className=" mb-5 text-3xl font-bold" > <span className=' text-orange-500 '> So</span> , who am I ?</h3>
+                    <h3 className=" mb-5 text-black text-3xl font-bold" > <span className=' text-orange-500 '> So</span> , who am I ?</h3>
 
                         <p className="text-gray-700 font-poppins text-justify ">
                         Hello! I’m Jannatul Ferdaus Putul,   an Architecture student at the prestigious Ahsanullah University of Science and Technology.
@@ -33,7 +33,7 @@ const About = () => {
                         I am a dedicated architecture student with a passion for design, a knack for art, and a strong command of essential digital tools. <br /> I am continuously learning and creatively exploring in my journey in the field of architecture. 😊 
                         </p>
                         < Link to="/Contract" >
-                            <button className="btn btn-sm bg-orange-400 mt-4 md:mt-6">
+                            <button className="btn btn-sm text-black bg-orange-400 mt-4 md:mt-6">
                                 Contact Me
                             </button>
                         </ Link >

@@ -35,7 +35,7 @@ const ArtsDetails = () => {
                     <p>{data.theme}</p>
                     <p>{data.details}</p>
                     <Link to="/">
-                    <button className="btn bg-orange-400 "> Go to Home</button>
+                    <button className="btn bg-orange-400 text-black "> Go to Home</button>
                     
                     </Link>
                 </div>

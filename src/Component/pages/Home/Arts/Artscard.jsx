@@ -40,7 +40,7 @@ const Artscard = (art) => {
                 </CardActionArea>
                 <CardActions>
                     <Link to={`/aDetails/${_id}`}>
-                    <button className='btn btn-sm bg-orange-400'> view Details</button>
+                    <button className='btn btn-sm text-black bg-orange-400'> view Details</button>
 
 
                     </Link>
