@@ -28,26 +28,26 @@ const Navbar = () => {
             <div className='hidden md:flex' >
             <Link
               to='/'
-              className='  px-4 py-3 text-red-500  hover:bg-slate-700 transition font-bold'
+              className='  px-4 py-3 text-red-500  hover:bg-slate-50 transition font-bold'
             >
               Home
             </Link>
 
             <Link
               to='/Projects'
-              className='px-4 py-3 text-red-500  hover:bg-slate-700 transition font-bold'
+              className='px-4 py-3 text-red-500  hover:bg-slate-50 transition font-bold'
             >
               Projects
             </Link>
             <Link
               to='/Arts'
-              className='px-4 py-3 text-red-500  hover:bg-slate-700 transition font-bold'
+              className='px-4 py-3 text-red-500  hover:bg-slate-50 transition font-bold'
             >
               Arts
             </Link>
             <Link
               to='/Contract'
-              className='px-4 py-3 text-red-500  hover:bg-slate-700 transition font-bold'
+              className='px-4 py-3 text-red-500  hover:bg-slate-50 transition font-bold'
             >
               Contract
             </Link>
