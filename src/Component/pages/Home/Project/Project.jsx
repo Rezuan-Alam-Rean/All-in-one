@@ -3,7 +3,7 @@ import ProjectCart from "./ProjectCart";
 import Grid from '@mui/material/Grid';
 import Pagination from '@mui/material/Pagination';
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
+// import Typography from '@mui/material/Typography';
 
 const Project = () => {
     const [projects, setProject] = useState([]);
@@ -35,7 +35,7 @@ const Project = () => {
             </Grid>
 
             <Box display="flex" justifyContent="flex-end" mt={2}>
-                <Typography className="text-black" variant="body1" >View More</Typography>
+                {/* <Typography className="text-black" variant="body1" >View More</Typography> */}
                 <Pagination count={Math.ceil(projects.length / itemsPerPage)} page={page} onChange={handleChange} />
             </Box>
         </div>

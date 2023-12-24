@@ -3,7 +3,7 @@ import Grid from '@mui/material/Grid';
 import Pagination from '@mui/material/Pagination';
 import Artscard from "./Artscard";
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
+// import Typography from '@mui/material/Typography';
 
 const Arts = () => {
     const [arts, setArts] = useState([]);
@@ -35,7 +35,7 @@ const Arts = () => {
             </Grid>
 
             <Box display="flex" justifyContent="flex-end" mt={2}>
-                <Typography className="text-black" variant="body1" >View More</Typography>
+                {/* <Typography className="text-black" variant="body1" >View More</Typography> */}
                 <Pagination count={Math.ceil(arts.length / itemsPerPage)} page={page} onChange={handleChange} />
             </Box>
         </div>
